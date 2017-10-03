@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=D:/Repos/skedaddleboard/hardware/includes/CrumpSchemes/crumpschemes
+LibName30=D:/Repos/snapcap/hardware/includes/CrumpSchemes/crumpschemes

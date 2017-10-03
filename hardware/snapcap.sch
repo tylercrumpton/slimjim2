@@ -29,7 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:crumpschemes
-LIBS:sb_ch340g-cache
+LIBS:snapcap-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

@@ -1,9 +1,6 @@
 [submodule "hardware/includes/CrumpPrints.pretty"]
 	path = hardware/includes/CrumpPrints.pretty
 	url = https://github.com/tylercrumpton/CrumpPrints.pretty.git
-[submodule "hardwarepinboard/includes/CrumpSchemes"]
-	path = hardware/includes/CrumpSchemes
-	url = https://github.com/tylercrumpton/CrumpSchemes.git
 [submodule "hardware/includes/CrumpPrintSymbols.pretty"]
 	path = hardware/includes/CrumpPrintSymbols.pretty
 	url = https://github.com/tylercrumpton/CrumpPrintSymbols.pretty.git

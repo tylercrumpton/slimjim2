@@ -1,4 +1,4 @@
-update=9/21/2017 12:12:04 AM
+update=10/4/2017 11:16:21 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=D:/Repos/snapcap/hardware/includes/CrumpSchemes/crumpschemes
+LibName30=includes/CrumpSchemes/crumpschemes

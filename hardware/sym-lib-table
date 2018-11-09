@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name slimjim2-rescue)(type Legacy)(uri ${KIPRJMOD}/slimjim2-rescue.lib)(options "")(descr ""))
+  (lib (name crumpschemes)(type Legacy)(uri ${KIPRJMOD}/includes/CrumpSchemes/crumpschemes.lib)(options "")(descr ""))
+)

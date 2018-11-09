@@ -1,36 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:crumpschemes
+EESchema Schematic File Version 4
 LIBS:slimjim2-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -45,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CH340G U2
+L crumpschemes:CH340G U2
 U 1 1 59C35380
 P 7100 2050
 F 0 "U2" H 7100 2450 60  0000 C CNN
@@ -60,7 +30,7 @@ Text GLabel 1650 1900 0    60   Input ~ 0
 Text GLabel 6300 2900 2    60   Input ~ 0
 5V
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 59C362D1
 P 6350 2550
 F 0 "#PWR01" H 6350 2300 50  0001 C CNN
@@ -71,7 +41,7 @@ F 3 "" H 6350 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM1117-3.3 U1
+L slimjim2-rescue:LM1117-3.3 U1
 U 1 1 59C36518
 P 2200 1900
 F 0 "U1" H 2300 1650 50  0000 C CNN
@@ -88,15 +58,15 @@ Wire Wire Line
 Wire Wire Line
 	6250 2900 6300 2900
 Wire Wire Line
-	1650 1900 1900 1900
+	1650 1900 1750 1900
 Text GLabel 2750 1900 2    60   Input ~ 0
 3V3
 Wire Wire Line
-	2500 1900 2750 1900
+	2500 1900 2600 1900
 Text GLabel 6150 1800 0    60   Input ~ 0
 3V3
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 59C36883
 P 6450 1850
 F 0 "#PWR02" H 6450 1600 50  0001 C CNN
@@ -117,10 +87,10 @@ Wire Wire Line
 Wire Wire Line
 	6300 2000 6300 1800
 Wire Wire Line
-	6150 1800 6600 1800
+	6150 1800 6300 1800
 Connection ~ 6300 1800
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 59C36A04
 P 2200 2300
 F 0 "#PWR03" H 2200 2050 50  0001 C CNN
@@ -131,9 +101,9 @@ F 3 "" H 2200 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 2200 2200 2300
+	2200 2200 2200 2250
 $Comp
-L C_Small C4
+L Device:C_Small C4
 U 1 1 59C36C51
 P 2000 5150
 F 0 "C4" H 2010 5220 50  0000 L CNN
@@ -144,7 +114,7 @@ F 3 "" H 2000 5150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C5
+L Device:C_Small C5
 U 1 1 59C36EE2
 P 2400 5150
 F 0 "C5" H 2410 5220 50  0000 L CNN
@@ -155,7 +125,7 @@ F 3 "" H 2400 5150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L power:GND #PWR04
 U 1 1 59C37019
 P 2200 5350
 F 0 "#PWR04" H 2200 5100 50  0001 C CNN
@@ -166,7 +136,7 @@ F 3 "" H 2200 5350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 5300 2400 5300
+	2000 5300 2200 5300
 Wire Wire Line
 	2200 5300 2200 5350
 Connection ~ 2200 5300
@@ -189,7 +159,7 @@ Text Notes 1800 1500 0    60   ~ 0
 Text Notes 6050 1500 0    60   ~ 0
 CH340 USB-UART Converter
 $Comp
-L RF200 U3
+L crumpschemes:RF200 U3
 U 1 1 59C37A6F
 P 4300 2450
 F 0 "U3" H 4300 1700 60  0000 C CNN
@@ -212,7 +182,7 @@ SNAP_RST
 Wire Wire Line
 	4850 2000 4900 2000
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 59C37D81
 P 5000 1800
 F 0 "#PWR05" H 5000 1550 50  0001 C CNN
@@ -229,7 +199,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 1800 5000 1800
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 59C37DD2
 P 3600 1800
 F 0 "#PWR06" H 3600 1550 50  0001 C CNN
@@ -330,7 +300,7 @@ SNAP_RXD1
 Wire Wire Line
 	3900 4950 3950 4950
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 59C38D61
 P 3800 4050
 F 0 "#PWR07" H 3800 3800 50  0001 C CNN
@@ -387,7 +357,7 @@ SNAP_RST
 Wire Wire Line
 	4700 4250 4750 4250
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 59C38DC8
 P 4850 4050
 F 0 "#PWR08" H 4850 3800 50  0001 C CNN
@@ -452,7 +422,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 1800 7650 1800
 $Comp
-L C_Small C3
+L Device:C_Small C3
 U 1 1 59C39011
 P 2100 3500
 F 0 "C3" V 2000 3450 50  0000 L CNN
@@ -467,7 +437,7 @@ Wire Wire Line
 Text GLabel 2450 3500 2    60   Input ~ 0
 SNAP_RST
 Wire Wire Line
-	2200 3500 2450 3500
+	2200 3500 2350 3500
 Text GLabel 7650 2200 2    60   Input ~ 0
 DTR
 Wire Wire Line
@@ -475,7 +445,7 @@ Wire Wire Line
 Text GLabel 1900 3500 0    60   Input ~ 0
 DTR
 $Comp
-L R_Small R1
+L Device:R_Small R1
 U 1 1 59C39813
 P 2350 3250
 F 0 "R1" H 2380 3270 50  0000 L CNN
@@ -486,10 +456,10 @@ F 3 "" H 2350 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2350 3350 2350 3650
+	2350 3350 2350 3500
 Connection ~ 2350 3500
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 59C39931
 P 2350 4000
 F 0 "#PWR09" H 2350 3750 50  0001 C CNN
@@ -505,17 +475,6 @@ Wire Wire Line
 	2350 3150 2350 3050
 Text Notes 1900 2900 0    60   ~ 0
 Reset Circuit
-$Comp
-L SW_PUSH_SMALL_H SW1
-U 1 1 59C39D4B
-P 2350 3800
-F 0 "SW1" V 2300 3950 50  0000 C CNN
-F 1 "RESET_SW" V 2400 4050 50  0000 C CNN
-F 2 "CrumpPrints:3x6x3.5mm_side_pushbutton_smd" H 2350 4000 50  0001 C CNN
-F 3 "" H 2350 4000 50  0000 C CNN
-	1    2350 3800
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2350 3950 2350 4000
 NoConn ~ 7600 2100
@@ -537,7 +496,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 5350 4700 5350
 $Comp
-L CONN_01X13 P3
+L slimjim2-rescue:CONN_01X13 P3
 U 1 1 59C3ADB8
 P 4150 4750
 F 0 "P3" H 4150 5450 50  0000 C CNN
@@ -548,7 +507,7 @@ F 3 "" H 4150 4750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X13 P4
+L slimjim2-rescue:CONN_01X13 P4
 U 1 1 59C3AE29
 P 4500 4750
 F 0 "P4" H 4500 5450 50  0000 C CNN
@@ -561,7 +520,7 @@ $EndComp
 Wire Wire Line
 	2350 3050 2300 3050
 $Comp
-L C_Small C1
+L Device:C_Small C1
 U 1 1 59C3BE38
 P 1750 2100
 F 0 "C1" H 1760 2170 50  0000 L CNN
@@ -573,7 +532,7 @@ F 3 "" H 1750 2100 50  0000 C CNN
 $EndComp
 Connection ~ 1750 1900
 $Comp
-L C_Small C2
+L Device:C_Small C2
 U 1 1 59C3C5C1
 P 2600 2100
 F 0 "C2" H 2610 2170 50  0000 L CNN
@@ -590,9 +549,9 @@ Connection ~ 2600 1900
 Wire Wire Line
 	1750 2200 1750 2250
 Wire Wire Line
-	1750 2250 2600 2250
+	1750 2250 1850 2250
 $Comp
-L CONN_01X06 P2
+L slimjim2-rescue:CONN_01X06 P2
 U 1 1 59C4AFE2
 P 6800 4250
 F 0 "P2" H 6800 4600 50  0000 C CNN
@@ -623,7 +582,7 @@ Wire Wire Line
 NoConn ~ 6600 4100
 NoConn ~ 5850 2300
 $Comp
-L PWR_FLAG #FLG010
+L power:PWR_FLAG #FLG010
 U 1 1 59C4C2B6
 P 1850 2300
 F 0 "#FLG010" H 1850 2395 50  0001 C CNN
@@ -637,7 +596,7 @@ Wire Wire Line
 	1850 2300 1850 2250
 Connection ~ 1850 2250
 $Comp
-L GND #PWR011
+L power:GND #PWR011
 U 1 1 59C4CB59
 P 6450 4000
 F 0 "#PWR011" H 6450 3750 50  0001 C CNN
@@ -652,7 +611,7 @@ Wire Wire Line
 Text Notes 6050 3750 0    60   ~ 0
 Serial Breakout Header
 $Comp
-L USB_OTG P1
+L slimjim2-rescue:USB_OTG P1
 U 1 1 59C4F14C
 P 5950 2700
 F 0 "P1" H 6275 2575 50  0000 C CNN
@@ -670,11 +629,11 @@ NoConn ~ 6250 2600
 Wire Wire Line
 	1750 2000 1750 1900
 Wire Wire Line
-	2350 4850 2450 4850
+	2350 4850 2400 4850
 Wire Wire Line
-	1950 4850 2050 4850
+	1950 4850 2000 4850
 $Comp
-L 4-pin_Crystal_Oscillator Y1
+L crumpschemes:4-pin_Crystal_Oscillator Y1
 U 1 1 59C50040
 P 2200 4850
 F 0 "Y1" H 2200 4700 60  0000 C CNN
@@ -694,4 +653,37 @@ Wire Wire Line
 	2000 5250 2000 5300
 Wire Wire Line
 	2400 5300 2400 5250
+Wire Wire Line
+	6300 1800 6600 1800
+Wire Wire Line
+	2200 5300 2400 5300
+Wire Wire Line
+	2350 3500 2450 3500
+Wire Wire Line
+	2350 3500 2350 3650
+Wire Wire Line
+	1750 1900 1900 1900
+Wire Wire Line
+	2200 2250 2200 2300
+Wire Wire Line
+	2200 2250 2600 2250
+Wire Wire Line
+	2600 1900 2750 1900
+Wire Wire Line
+	1850 2250 2200 2250
+Wire Wire Line
+	2400 4850 2450 4850
+Wire Wire Line
+	2000 4850 2050 4850
+$Comp
+L slimjim2-rescue:SW_PUSH_SMALL_H SW1
+U 1 1 59C39D4B
+P 2350 3800
+F 0 "SW1" V 2300 3950 50  0000 C CNN
+F 1 "RESET_SW" V 2400 4050 50  0000 C CNN
+F 2 "CrumpPrints:3x6x3.5mm_side_pushbutton_smd" H 2350 4000 50  0001 C CNN
+F 3 "" H 2350 4000 50  0000 C CNN
+	1    2350 3800
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

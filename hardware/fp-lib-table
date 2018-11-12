@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name CrumpPrints)(type KiCad)(uri ${KIPRJMOD}/includes/CrumpPrints.pretty)(options "")(descr ""))
   (lib (name CrumpPrintSymbols)(type KiCad)(uri ${KIPRJMOD}/includes/CrumpPrintSymbols.pretty)(options "")(descr ""))
+  (lib (name 632723100011)(type Legacy)(uri /Users/tyler.crumpton/Downloads/632723100011/632723100011.mod)(options "")(descr ""))
 )

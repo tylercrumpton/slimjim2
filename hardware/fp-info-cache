@@ -1,4 +1,11 @@
-197350545874166
+222038423980768
+632723100011
+632723X00011
+
+
+0
+32
+32
 Air_Coils_SML_NEOSID
 Neosid_Air-Coil_SML_1turn_HDM0131A
 
@@ -18655,6 +18662,13 @@ DCDC-Conv_TRACO_TSR-1
 0
 0
 CrumpPrints
+1W_RGB_LED_6PIN
+
+
+0
+7
+7
+CrumpPrints
 3x6x3.5mm_side_pushbutton_smd
 
 
@@ -18690,7 +18704,28 @@ CrumpPrints
 1
 1
 CrumpPrints
+18650_Holder
+
+
+0
+2
+2
+CrumpPrints
+0480372200_Molex_USB_A_Plug_SMT
+
+USB
+0
+6
+5
+CrumpPrints
 APA102
+
+
+0
+6
+6
+CrumpPrints
+APA102_hand_solder
 
 
 0
@@ -18732,6 +18767,13 @@ Header_1x12_100
 12
 12
 CrumpPrints
+Inductor_Bourns-SRN6045
+Bourns SRN6045 series SMD inductor
+Bourns SRN6045 SMD inductor
+0
+2
+2
+CrumpPrints
 MPCIe_full_card
 
 
@@ -18752,6 +18794,13 @@ mpci, pci, pci express
 0
 60
 52
+CrumpPrints
+QFN_44
+
+QFN44
+0
+44
+44
 CrumpPrints
 QRE1113
 
@@ -18788,6 +18837,13 @@ RF200_nosilk
 24
 24
 CrumpPrints
+SK22D07_DPDT_slide_switch
+
+switch slide toggle SK22D07 dpdt spdt
+0
+8
+6
+CrumpPrints
 SM200
 
 
@@ -18801,6 +18857,13 @@ SM200_nosilk
 0
 64
 64
+CrumpPrints
+SMLP34RGB
+
+LED, RGB, SMLP34RGB
+0
+4
+4
 CrumpPrints
 SnapStack
 
@@ -18816,6 +18879,13 @@ SPDT, slide, switch, alps, ssss810701
 3
 3
 CrumpPrints
+Switch_APEM_ADTSM3_3.5x6mm
+https://www.mouser.com/datasheet/2/26/ADTS3-369939-1158421.pdf
+pushbutton tact tactile switch
+0
+2
+2
+CrumpPrints
 TC200
 
 
@@ -18830,6 +18900,27 @@ TC200_nosilk
 24
 24
 CrumpPrints
+TC2030-MCP
+
+tag-connect, tagconnect, icsp
+0
+6
+6
+CrumpPrints
+TerminalBlock_bornier-12_P5.08mm
+simple 12-pin terminal block, pitch 5.08mm, revamped version of bornier2
+terminal block bornier2
+0
+12
+12
+CrumpPrints
+Texas_VSON-10_3.0x3.0mm_P0.5mm_DRC
+
+
+0
+25
+11
+CrumpPrints
 Tiny_RTC_DS1307
 
 
@@ -18837,12 +18928,26 @@ Tiny_RTC_DS1307
 12
 12
 CrumpPrints
+UCSP-9p-0.4mm
+
+UCSP, Maxim
+0
+9
+9
+CrumpPrints
 USB_Board_Edge
 
 
 0
 4
 4
+CrumpPrints
+USB_C_Receptacle_SMD_THT
+
+USB, type-c, c
+0
+28
+25
 CrumpPrints
 WS2812B
 
@@ -18857,6 +18962,13 @@ LED, Neopixel, RGB, WS2811, WS2812
 0
 4
 4
+CrumpPrints
+WSON-6p-2x2mm
+
+WSON
+0
+7
+7
 CrumpPrintSymbols
 Symbol_OSHW-Logo_12.5mm_NoText_Silkscreen
 

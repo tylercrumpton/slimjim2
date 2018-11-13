@@ -10,6 +10,16 @@
   )
 
   (page A4)
+  (title_block
+    (title SlimJim2)
+    (date 2018-11-12)
+    (rev v2.1)
+    (company CrumpSpace)
+    (comment 1 "Designer: Tyler Crumpton")
+    (comment 2 @tylercrumpton)
+    (comment 3 https://github.com/tylercrumpton/slimjim2)
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -62,7 +72,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFF7F)
     (pcbplotparams
-      (layerselection 0x010f0_80000001)
+      (layerselection 0x010fc_ffffffff)
       (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -1667,7 +1677,7 @@
   (gr_text slimjim2 (at 148.5392 94.107) (layer B.SilkS) (tstamp 59D34808)
     (effects (font (size 2 2) (thickness 0.5)) (justify mirror))
   )
-  (gr_text v2.0 (at 153.3144 96.0882) (layer B.SilkS) (tstamp 59D34807)
+  (gr_text v2.1 (at 153.3144 96.0882) (layer B.SilkS) (tstamp 59D34807)
     (effects (font (size 0.9 0.9) (thickness 0.225)) (justify mirror))
   )
   (gr_text @ (at 156.6672 110.744) (layer B.SilkS)
@@ -1704,7 +1714,7 @@
   (gr_text "TRY.\nLEARN.\nREPEAT." (at 137.922 107.569) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.175)) (justify left))
   )
-  (gr_text v2.0 (at 145.6182 113.4872) (layer F.SilkS) (tstamp 5BE95C4F)
+  (gr_text v2.1 (at 145.6182 113.4872) (layer F.SilkS) (tstamp 5BE95C4F)
     (effects (font (size 0.9 0.9) (thickness 0.225)))
   )
   (gr_text slimjim2 (at 137.6934 114.3762) (layer F.SilkS)
@@ -2081,7 +2091,7 @@
   (segment (start 162.352 116.205) (end 161.434999 115.287999) (width 0.16) (layer F.Cu) (net 42))
   (segment (start 159.766 110.49) (end 160.676 110.49) (width 0.16) (layer F.Cu) (net 42))
 
-  (zone (net 3) (net_name 3V3) (layer F.Cu) (tstamp 5BE934A3) (hatch edge 0.508)
+  (zone (net 3) (net_name 3V3) (layer F.Cu) (tstamp 5BEA691B) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -2354,7 +2364,7 @@
       )
     )
   )
-  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5BE934A0) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 5BEA6918) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
